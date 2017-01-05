@@ -1,3 +1,8 @@
-# agglomerative-clustering
-An implementation of Agglomerative Clustering benchmark using OpenMP, TBB, Cilk+ and C++11.
-Agglomerative Clustering in: OpenMP, Cilk Plus, TBB, xKaapi (API)
+# Agglomerative Clustering
+
+- An implementation of Agglomerative Clustering benchmark using:
+  - [X] OpenMP 
+  - [X] TBB
+  - [X] Cilk+
+  - [X] C++11.
+
