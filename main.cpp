@@ -57,24 +57,23 @@ int main (int argc, char* argv[]) {
         
         cout << (tick_end - tick_start).seconds() << ",";
 		  
-		AC = new AgglomerativeClustering(points);
+	AC = new AgglomerativeClustering(points);
         
-	  	start = clock();
+	start = clock();
         c = AC->openMPStart();
-		end = clock();
+	end = clock();
         
         cout << ((double) end - start) / CLOCKS_PER_SEC << ",";
         
         AC = new AgglomerativeClustering(points);
         
-	  	start = clock();
+	start = clock();
         c = AC->cilkStart();
-		end = clock();
+	end = clock();
         
         cout << ((double) end - start) / CLOCKS_PER_SEC << endl;
         
       }
-      
       
     }
     
